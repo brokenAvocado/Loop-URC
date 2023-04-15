@@ -1,0 +1,814 @@
+Input file: C:\Users\ericy\Documents\Loop URC\test_rover\only_rover\motion_1-solution_1.minp
+
+
+Solver: Simcenter Motion Version 11 (11.0) Jun 15 2016 12:06:26 Intel Release 64bit
+Interface: P33_rc1 2016-06-15
+Hostname: ERIC_ASUS
+OS Type: Windows
+Release: 6.2
+Version: Build 9200
+Machine: 8664
+Integer size:    5000000
+Real size:    5000000
+Mcheps: 0.22204460492503E-15
+LMSMOTGGL is active
+
+[1296]
+Warning (dynamic data element):  When "INTERPOLATED" is selected for the
+print method, the print frequency feature cannot be used.  PRINT.Freq is
+being reset to zero (disabled) and execution is continuing.
+ The GGL formulation is turned on.
+
+
+Features requiring licenses
+-----------------------
+sc_motion_solver "Motion Solver"
+
+
+Results achieved by the model assembly process with drivers:
+
+  Number of function evaluations =     1
+  Maximum constraint violation   =   0.817124E-12
+
+ Element: BOGIE
+    Coordinate    New Value     Original Value  Difference
+    X              23.053         23.053         0.0000    
+    Y            -0.34641       -0.34641         0.0000    
+    Z              65.653         65.653         0.0000    
+    E0            0.54023        0.54023         0.0000    
+    E1            0.45624        0.45624         0.0000    
+    E2            0.45624        0.45624         0.0000    
+    E3            0.54023        0.54023         0.0000    
+
+ Element: BOGIE_1
+    Coordinate    New Value     Original Value  Difference
+    X              23.053         23.053         0.0000    
+    Y              32.150         32.150         0.0000    
+    Z              65.653         65.653         0.0000    
+    E0            0.54023        0.54023         0.0000    
+    E1            0.45624        0.45624         0.0000    
+    E2            0.45624        0.45624         0.0000    
+    E3            0.54023        0.54023         0.0000    
+
+ Element: CHASSIS
+    Coordinate    New Value     Original Value  Difference
+    X              29.771         29.771         0.0000    
+    Y              15.902         15.902         0.0000    
+    Z              70.496         70.496         0.0000    
+    E0            0.70711        0.70711         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2           -0.70711       -0.70711         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: L001
+    Coordinate    New Value     Original Value  Difference
+    X              7.9643         7.9643         0.0000    
+    Y              15.902         15.902         0.0000    
+    Z              70.520         70.520         0.0000    
+    E0            0.70711        0.70711         0.0000    
+    E1            0.70711        0.70711         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: ROCKER
+    Coordinate    New Value     Original Value  Difference
+    X              51.015         51.015         0.0000    
+    Y             -1.3464        -1.3464         0.0000    
+    Z              54.849         54.849         0.0000    
+    E0            0.50000        0.50000         0.0000    
+    E1            0.50000        0.50000         0.0000    
+    E2            0.50000        0.50000         0.0000    
+    E3            0.50000        0.50000         0.0000    
+
+ Element: ROCKER_1
+    Coordinate    New Value     Original Value  Difference
+    X              51.015         51.015         0.0000    
+    Y              33.150         33.150         0.0000    
+    Z              54.849         54.849         0.0000    
+    E0            0.50000        0.50000         0.0000    
+    E1            0.50000        0.50000         0.0000    
+    E2            0.50000        0.50000         0.0000    
+    E3            0.50000        0.50000         0.0000    
+
+ Element: WHEELS
+    Coordinate    New Value     Original Value  Difference
+    X              4.2195         4.2195         0.0000    
+    Y             -3.3464        -3.3464         0.0000    
+    Z              46.874         46.874         0.0000    
+    E0             0.0000         0.0000         0.0000    
+    E1            0.70711        0.70711         0.0000    
+    E2            0.70711        0.70711         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: WHEELS_1
+    Coordinate    New Value     Original Value  Difference
+    X              35.062         35.062         0.0000    
+    Y             -4.3464        -4.3464         0.0000    
+    Z              46.874         46.874         0.0000    
+    E0             0.0000         0.0000         0.0000    
+    E1            0.70711        0.70711         0.0000    
+    E2            0.70711        0.70711         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: WHEELS_2
+    Coordinate    New Value     Original Value  Difference
+    X              66.969         66.969         0.0000    
+    Y             -4.3464        -4.3464         0.0000    
+    Z              46.874         46.874         0.0000    
+    E0             0.0000         0.0000         0.0000    
+    E1            0.70711        0.70711         0.0000    
+    E2            0.70711        0.70711         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: WHEELS_3
+    Coordinate    New Value     Original Value  Difference
+    X              66.969         66.969         0.0000    
+    Y              36.150         36.150         0.0000    
+    Z              46.874         46.874         0.0000    
+    E0             0.0000         0.0000         0.0000    
+    E1            0.70711        0.70711         0.0000    
+    E2            0.70711        0.70711         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: WHEELS_4
+    Coordinate    New Value     Original Value  Difference
+    X              35.062         35.062         0.0000    
+    Y              36.150         36.150         0.0000    
+    Z              46.874         46.874         0.0000    
+    E0             0.0000         0.0000         0.0000    
+    E1            0.70711        0.70711         0.0000    
+    E2            0.70711        0.70711         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: WHEELS_5
+    Coordinate    New Value     Original Value  Difference
+    X              4.2195         4.2195         0.0000    
+    Y              35.150         35.150         0.0000    
+    Z              46.874         46.874         0.0000    
+    E0             0.0000         0.0000         0.0000    
+    E1            0.70711        0.70711         0.0000    
+    E2            0.70711        0.70711         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: the_ground
+    Coordinate    New Value     Original Value  Difference
+    X              0.0000         0.0000         0.0000    
+    Y              0.0000         0.0000         0.0000    
+    Z              0.0000         0.0000         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: MOTION_J005_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle     0.18534E-13    0.18534E-13     0.0000    
+
+[1172]
+The following are redundant constraints and will be deleted from
+the system:
+                                                           Constraint
+   .........Element Type.........   ........Name........   ..Number..
+
+ Element: J012
+    Type: Revolute joint         Constraint Number    5
+
+ Element: J013
+    Type: Revolute joint         Constraint Number    4
+
+ Element: J013
+    Type: Revolute joint         Constraint Number    5
+
+ Element: J013
+    Type: Revolute joint         Constraint Number    1
+
+ Element: J005
+    Type: Revolute joint         Constraint Number    5
+
+ Element: J006
+    Type: Revolute joint         Constraint Number    5
+
+ Element: J014
+    Type: Revolute joint         Constraint Number    4
+
+ Element: J014
+    Type: Revolute joint         Constraint Number    5
+
+
+The remaining constraints in which the redundant
+constraints are linearly dependent to are summarized as:
+
+Name: J012
+     constraint   5 is linearly dependent to:
+
+ Name: BOGIE
+    Constraint:      1  Factor:  -0.3156    
+ Name: BOGIE_1
+    Constraint:      1  Factor:   0.3259    
+ Name: CHASSIS
+    Constraint:      1  Factor:  -0.5627    
+ Name: MOTION_J005_RZ
+    Constraint:      1  Factor:  -0.2378E-01
+ Name: L001
+    Constraint:      1  Factor:   0.7509    
+ Name: MOTION_J005_RZ
+    Constraint:      2  Factor:  -0.2378E-01
+ Name: J012
+    Constraint:      2  Factor:  -0.7397    
+ Name: J012
+    Constraint:      1  Factor:  -0.5000    
+ Name: J014
+    Constraint:      1  Factor:   0.5000    
+ Name: J005
+    Constraint:      1  Factor:   0.5000    
+ Name: J006
+    Constraint:      1  Factor:  -0.5000    
+ Name: J013
+    Constraint:      2  Factor:   0.7285    
+ Name: J006
+    Constraint:      2  Factor:  -0.7397    
+
+Name: J013
+     constraint   4 is linearly dependent to:
+
+ Name: MOTION_J005_RZ
+    Constraint:      1  Factor:    16.25    
+ Name: MOTION_J005_RZ
+    Constraint:      2  Factor:    16.25    
+ Name: J014
+    Constraint:      3  Factor:  -0.7285    
+ Name: J012
+    Constraint:      3  Factor:  -0.7285    
+ Name: J012
+    Constraint:      4  Factor:    1.000    
+ Name: J005
+    Constraint:      3  Factor:  -0.7285    
+ Name: J013
+    Constraint:      3  Factor:    1.457    
+ Name: J006
+    Constraint:      3  Factor:  -0.7285    
+
+Name: J013
+     constraint   5 is linearly dependent to:
+
+ Name: BOGIE
+    Constraint:      1  Factor:  -0.3156    
+ Name: BOGIE_1
+    Constraint:      1  Factor:   0.3156    
+ Name: CHASSIS
+    Constraint:      1  Factor:  -0.1631E-01
+ Name: MOTION_J005_RZ
+    Constraint:      1  Factor:  -0.2378E-01
+ Name: L001
+    Constraint:      1  Factor:   0.2242E-01
+ Name: MOTION_J005_RZ
+    Constraint:      2  Factor:  -0.2378E-01
+ Name: J014
+    Constraint:      2  Factor:   0.1121E-01
+ Name: J012
+    Constraint:      2  Factor:  -0.1121E-01
+ Name: J012
+    Constraint:      1  Factor:  -0.5000    
+ Name: J014
+    Constraint:      1  Factor:   0.5000    
+ Name: J005
+    Constraint:      1  Factor:   0.5000    
+ Name: J006
+    Constraint:      1  Factor:  -0.5000    
+ Name: J006
+    Constraint:      2  Factor:  -0.1121E-01
+ Name: J005
+    Constraint:      2  Factor:   0.1121E-01
+
+Name: J013
+     constraint   1 is linearly dependent to:
+
+ Name: BOGIE
+    Constraint:      1  Factor:  -0.3156    
+ Name: BOGIE_1
+    Constraint:      1  Factor:  -0.3156    
+ Name: CHASSIS
+    Constraint:      1  Factor:   0.9993    
+ Name: J012
+    Constraint:      1  Factor:   0.5000    
+ Name: J014
+    Constraint:      1  Factor:   0.5000    
+ Name: J005
+    Constraint:      1  Factor:   0.5000    
+ Name: J006
+    Constraint:      1  Factor:   0.5000    
+ Name: J013
+    Constraint:      2  Factor:  -0.2242E-01
+
+Name: J005
+     constraint   5 is linearly dependent to:
+
+ Name: CHASSIS
+    Constraint:      1  Factor:   0.7046    
+ Name: L001
+    Constraint:      1  Factor:  -0.9991    
+ Name: J014
+    Constraint:      2  Factor:  -0.9991    
+ Name: J013
+    Constraint:      2  Factor:   0.9991    
+ Name: J005
+    Constraint:      2  Factor:  -0.9991    
+
+Name: J006
+     constraint   5 is linearly dependent to:
+
+ Name: CHASSIS
+    Constraint:      1  Factor:   0.7493    
+ Name: L001
+    Constraint:      1  Factor:  -0.9991    
+ Name: J012
+    Constraint:      2  Factor:   0.9991    
+ Name: J013
+    Constraint:      2  Factor:  -0.9991    
+ Name: J006
+    Constraint:      2  Factor:   0.9991    
+
+Name: J014
+     constraint   4 is linearly dependent to:
+
+ Name: MOTION_J005_RZ
+    Constraint:      1  Factor:    32.50    
+ Name: MOTION_J005_RZ
+    Constraint:      2  Factor:    32.50    
+ Name: J014
+    Constraint:      3  Factor:  -0.7285    
+ Name: J012
+    Constraint:      3  Factor:  -0.7285    
+ Name: J012
+    Constraint:      4  Factor:    1.000    
+ Name: J005
+    Constraint:      3  Factor:  -0.7285    
+ Name: J013
+    Constraint:      3  Factor:    1.457    
+ Name: J006
+    Constraint:      3  Factor:  -0.7285    
+
+Name: J014
+     constraint   5 is linearly dependent to:
+
+ Name: BOGIE
+    Constraint:      1  Factor:  -0.3053    
+ Name: BOGIE_1
+    Constraint:      1  Factor:   0.3156    
+ Name: CHASSIS
+    Constraint:      1  Factor:   0.4975    
+ Name: MOTION_J005_RZ
+    Constraint:      1  Factor:  -0.2378E-01
+ Name: L001
+    Constraint:      1  Factor:  -0.7061    
+ Name: MOTION_J005_RZ
+    Constraint:      2  Factor:  -0.2378E-01
+ Name: J014
+    Constraint:      2  Factor:  -0.7173    
+ Name: J012
+    Constraint:      1  Factor:  -0.5000    
+ Name: J014
+    Constraint:      1  Factor:   0.5000    
+ Name: J005
+    Constraint:      1  Factor:   0.5000    
+ Name: J006
+    Constraint:      1  Factor:  -0.5000    
+ Name: J013
+    Constraint:      2  Factor:   0.7285    
+ Name: J005
+    Constraint:      2  Factor:  -0.7173    
+
+Ignoring Initial conditions, the following were chosen
+as independent coordinates:
+
+
+ Element: WHEELS_4
+    Coordinate:  E0        
+
+ Element: WHEELS_2
+    Coordinate:  Z         
+
+ Element: WHEELS_5
+    Coordinate:  E0        
+
+ Element: WHEELS_3
+    Coordinate:  E3        
+
+ Element: WHEELS_1
+    Coordinate:  E0        
+
+ Element: WHEELS_3
+    Coordinate:  Z         
+
+ Element: WHEELS_2
+    Coordinate:  E0        
+
+ Element: WHEELS
+    Coordinate:  E0        
+ Using QR Initial Velocity Method
+
+[1286]
+Warning:  Initial conditions may not be sufficient (DAP2).
+Solution of initial velocities, using QR method:
+
+ Element: BOGIE
+    Coordinate    Velocity
+    X             0.422669    
+    Y             0.552061E-13
+    Z            -0.585943    
+    E0            0.199072E-01
+    E1           -0.235718E-01
+    E2           -0.235718E-01
+    E3            0.199072E-01
+
+ Element: BOGIE_1
+    Coordinate    Velocity
+    X            -0.422669    
+    Y             0.541646E-13
+    Z             0.585943    
+    E0           -0.199072E-01
+    E1            0.235718E-01
+    E2            0.235718E-01
+    E3           -0.199072E-01
+
+ Element: CHASSIS
+    Coordinate    Velocity
+    X            -0.926387E-13
+    Y             0.641980E-13
+    Z            -0.908350E-13
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: L001
+    Coordinate    Velocity
+    X            -0.917827E-13
+    Y            -0.638665E-04
+    Z            -0.436332E-01
+    E0           -0.423505E-01
+    E1            0.423505E-01
+    E2            0.308082E-01
+    E3           -0.308985E-01
+
+ Element: ROCKER
+    Coordinate    Velocity
+    X             0.584854    
+    Y             0.653282E-13
+    Z              1.85429    
+    E0           -0.290584E-01
+    E1            0.290584E-01
+    E2            0.290584E-01
+    E3           -0.290584E-01
+
+ Element: ROCKER_1
+    Coordinate    Velocity
+    X             -1.47656    
+    Y             0.663567E-13
+    Z             -1.85429    
+    E0           -0.290584E-01
+    E1            0.290584E-01
+    E2            0.290584E-01
+    E3           -0.290584E-01
+
+ Element: WHEELS
+    Coordinate    Velocity
+    X              2.06141    
+    Y             0.242135E-13
+    Z             -2.22943    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: WHEELS_1
+    Coordinate    Velocity
+    X            -0.342134    
+    Y             0.597123E-13
+    Z              3.70857    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: WHEELS_2
+    Coordinate    Velocity
+    X            -0.342134    
+    Y             0.703171E-13
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: WHEELS_3
+    Coordinate    Velocity
+    X             -2.40355    
+    Y             0.757168E-13
+    Z             -3.70857    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: WHEELS_4
+    Coordinate    Velocity
+    X             -2.40355    
+    Y             0.385225E-13
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: WHEELS_5
+    Coordinate    Velocity
+    X             -2.06141    
+    Y             0.192489E-13
+    Z              2.22943    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: MOTION_J005_RZ
+    Coordinate    Velocity
+    Rel.angle     0.872665E-01
+
+Solution of velocities in local coordinates:
+
+ Element: BOGIE
+    Coordinate    Velocity
+    X             0.422669    
+    Y             0.552061E-13
+    Z            -0.585943    
+    OMEGA_XL     -0.872665E-01
+    OMEGA_YL      0.759809E-15
+    OMEGA_ZL     -0.888178E-15
+
+ Element: BOGIE_1
+    Coordinate    Velocity
+    X            -0.422669    
+    Y             0.541646E-13
+    Z             0.585943    
+    OMEGA_XL      0.872665E-01
+    OMEGA_YL      0.988792E-15
+    OMEGA_ZL     -0.870831E-15
+
+ Element: CHASSIS
+    Coordinate    Velocity
+    X            -0.926387E-13
+    Y             0.641980E-13
+    Z            -0.908350E-13
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: L001
+    Coordinate    Velocity
+    X            -0.917827E-13
+    Y            -0.638665E-04
+    Z            -0.436332E-01
+    OMEGA_XL      0.119785    
+    OMEGA_YL     -0.127733E-03
+    OMEGA_ZL     -0.872665E-01
+
+ Element: ROCKER
+    Coordinate    Velocity
+    X             0.584854    
+    Y             0.653282E-13
+    Z              1.85429    
+    OMEGA_XL      0.116234    
+    OMEGA_YL      0.287964E-15
+    OMEGA_ZL      0.346945E-17
+
+ Element: ROCKER_1
+    Coordinate    Velocity
+    X             -1.47656    
+    Y             0.663567E-13
+    Z             -1.85429    
+    OMEGA_XL      0.116234    
+    OMEGA_YL      0.128023E-14
+    OMEGA_ZL     -0.908995E-15
+
+ Element: WHEELS
+    Coordinate    Velocity
+    X              2.06141    
+    Y             0.242135E-13
+    Z             -2.22943    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: WHEELS_1
+    Coordinate    Velocity
+    X            -0.342134    
+    Y             0.597123E-13
+    Z              3.70857    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: WHEELS_2
+    Coordinate    Velocity
+    X            -0.342134    
+    Y             0.703171E-13
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: WHEELS_3
+    Coordinate    Velocity
+    X             -2.40355    
+    Y             0.757168E-13
+    Z             -3.70857    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: WHEELS_4
+    Coordinate    Velocity
+    X             -2.40355    
+    Y             0.385225E-13
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: WHEELS_5
+    Coordinate    Velocity
+    X             -2.06141    
+    Y             0.192489E-13
+    Z              2.22943    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: the_ground
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+Number of real data in the system     =    244869
+Number of integer data in the system  =    145121
+
+
+Solution of accelerations in local coordinates:
+
+ Element: BOGIE
+    Coordinate    Acceleration
+    X             0.459066E-01
+    Y             0.701874E-01
+    Z             0.368849E-01
+    OMEGAD_XL    -0.563785E-17
+    OMEGAD_YL    -0.103058E-01
+    OMEGAD_ZL    -0.174967E-02
+
+ Element: BOGIE_1
+    Coordinate    Acceleration
+    X             0.562811E-01
+    Y            -0.701874E-01
+    Z             0.369939E-01
+    OMEGAD_XL     0.162414E-04
+    OMEGAD_YL     0.103058E-01
+    OMEGAD_ZL     0.174967E-02
+
+ Element: CHASSIS
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+ Element: L001
+    Coordinate    Acceleration
+    X             0.166037    
+    Y             0.102924E-01
+    Z            -0.812072E-05
+    OMEGAD_XL     0.222936E-04
+    OMEGAD_YL     0.101315E-01
+    OMEGAD_ZL    -0.940908E-06
+
+ Element: ROCKER
+    Coordinate    Acceleration
+    X            -0.153723    
+    Y            -0.222116    
+    Z             0.141769    
+    OMEGAD_XL    -0.619778E-02
+    OMEGAD_YL    -0.104532E-01
+    OMEGAD_ZL    -0.141380E-15
+
+ Element: ROCKER_1
+    Coordinate    Acceleration
+    X            -0.144636    
+    Y             0.222116    
+    Z             0.141424    
+    OMEGAD_XL    -0.589174E-02
+    OMEGAD_YL     0.104532E-01
+    OMEGAD_ZL     0.997466E-16
+
+ Element: WHEELS
+    Coordinate    Acceleration
+    X             0.157968    
+    Y             0.267053    
+    Z             0.179892    
+    OMEGAD_XL     0.362707E-10
+    OMEGAD_YL    -0.802001E-16
+    OMEGAD_ZL     0.104532E-01
+
+ Element: WHEELS_1
+    Coordinate    Acceleration
+    X             0.798762E-01
+    Y            -0.553549E-01
+    Z             0.150643    
+    OMEGAD_XL     0.278559E-13
+    OMEGAD_YL    -0.167086E-15
+    OMEGAD_ZL     0.104532E-01
+
+ Element: WHEELS_2
+    Coordinate    Acceleration
+    X            -0.351185    
+    Y            -0.388878    
+    Z             0.348390    
+    OMEGAD_XL    -0.674227E-13
+    OMEGAD_YL    -0.167620E-15
+    OMEGAD_ZL     0.104532E-01
+
+ Element: WHEELS_3
+    Coordinate    Acceleration
+    X            -0.344538    
+    Y             0.388878    
+    Z             0.343163    
+    OMEGAD_XL    -0.560877E-13
+    OMEGAD_YL    -0.417792E-16
+    OMEGAD_ZL    -0.104532E-01
+
+ Element: WHEELS_4
+    Coordinate    Acceleration
+    X             0.865229E-01
+    Y             0.553549E-01
+    Z             0.155180    
+    OMEGAD_XL     0.167724E-13
+    OMEGAD_YL    -0.413546E-16
+    OMEGAD_ZL    -0.104532E-01
+
+ Element: WHEELS_5
+    Coordinate    Acceleration
+    X             0.168038    
+    Y            -0.267053    
+    Z             0.180307    
+    OMEGAD_XL     0.362673E-10
+    OMEGAD_YL     0.329754E-16
+    OMEGAD_ZL    -0.104532E-01
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+Total Number of Bodies             =   13
+
+Total Number of Degrees of Freedom =   79
+Number of Kinematic Constraints    =   71
+Number of Drivers                  =    1
+Number of Initial Conditions       =    0
+Number of Degrees of Freedom       =    8
+
+The number of symbolic factorizations of the Acceleration matrix =                    1
+
+The number of symbolic factorizations of BDF Jacobian matrix =                    1
+
+[1441]
+Final integrator statistics:
+  Number of steps                 =                  222
+  Number of f-s                   =                  316
+  Number of j-s                   =                    4
+  Ratio of f-s/steps              =  1.4234234234234
+  Ratio of j-s/steps              = 0.18018018018018E-01
+  Current time                    =  2.0000000000000
+  Total velocity computations     =                    0
+  Total position computations     =                    0
+
+    Total elapsed CPU time:  0.2661133    
+    Total clock time:          0
