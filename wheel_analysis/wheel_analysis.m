@@ -14,24 +14,24 @@ s = 0.5; % s = 1 - v / (omega * (D/2)) % wheel slip ratio (assume a conservative
 
 % Grousers
 y_g = 0.25/39.37; % height of grouser cross sect face {m} (i.e. looking at grouser head-on from the part that touches the ground, this is the height of its face)
-N_Grouser = 40; % total number of grousers
+N_Grouser = 60; % total number of grousers
 
 wheel_calcs;
 
 %% Wheel Diameter Optimization
-% DBP = [];
-% diam = linspace(3.5, 12, 1000);
-% for i = diam
-%     D = i/39.37;
-%     wheel_calcs;
-%     DBP = [-DP_grouser*8.8507457676 DBP];
-% end
-% 
-% figure
-% plot(diam, DBP)
-% title("Drawbar Pull vs Diameter")
-% xlabel("Wheel Diameter (in)")
-% ylabel("Drawbar Pull (lb)")
+DBP = [];
+diam = linspace(3.5, 12, 1000);
+for i = diam
+    D = i/39.37;
+    wheel_calcs;
+    DBP = [-DP_grouser*8.8507457676 DBP];
+end
+
+figure
+plot(diam, DBP)
+title("Drawbar Pull vs Diameter")
+xlabel("Wheel Diameter (in)")
+ylabel("Drawbar Pull (lb)")
 
 %% Wheel Width Optimization
 % DBP = [];
