@@ -96,10 +96,10 @@ BODYNCBF  WORLD                                   BODY8
 0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 
 HIEROBJ  EHIEROBJECT16                                      NONE                
 CGTRIAD   HIEROBJECT15                                                          
-1.0860684995807E-04 0.000000000000E+00  9.9999999410228E-01 0.000000000000E+00  
+1.0745500000875E-04 0.000000000000E+00  9.9999999422671E-01 0.000000000000E+00  
 0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00  
--9.999999941023E-01 0.000000000000E+00  1.0860684995807E-04 0.000000000000E+00  
--1.059358307090E+00 4.5210073626300E+00 1.4608811589500E+00 1.0000000000000E+00 
+-9.999999942267E-01 0.000000000000E+00  1.0745500000875E-04 0.000000000000E+00  
+-1.059263653180E+00 4.5210073626300E+00 1.4608810010400E+00 1.0000000000000E+00 
 HIEROBJ  EHIEROBJECT17                                      NONE                
 BODYNCBF  WORLD                                   BODY9                         
 1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  
@@ -450,16 +450,16 @@ JFCTRIAD  HIEROBJECT13
 2.5433174532600E+00 4.4008337302800E+00 5.1116612950000E-01 1.0000000000000E+00 
 HIEROBJ  EHIEROBJECT75                                      NONE                
 JFCTRIAD  HIEROBJECT15                                                          
-1.0860684995806E-04 0.000000000000E+00  9.9999999410228E-01 0.000000000000E+00  
+1.0745500000886E-04 0.000000000000E+00  9.9999999422671E-01 0.000000000000E+00  
 0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00  
--9.999999941023E-01 0.000000000000E+00  1.0860684995806E-04 0.000000000000E+00  
+-9.999999942267E-01 0.000000000000E+00  1.0745500000886E-04 0.000000000000E+00  
 0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 
 HIEROBJ  EHIEROBJECT76                                      NONE                
 JFCTRIAD  HIEROBJECT15                                                          
-1.0860684995806E-04 0.000000000000E+00  9.9999999410228E-01 0.000000000000E+00  
+1.0745500000886E-04 0.000000000000E+00  9.9999999422671E-01 0.000000000000E+00  
 0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00  
--9.999999941023E-01 0.000000000000E+00  1.0860684995806E-04 0.000000000000E+00  
--1.059358307090E+00 4.5210073626300E+00 1.4608811589500E+00 1.0000000000000E+00 
+-9.999999942267E-01 0.000000000000E+00  1.0745500000886E-04 0.000000000000E+00  
+-1.059263653180E+00 4.5210073626300E+00 1.4608810010400E+00 1.0000000000000E+00 
 HIEROBJ  EHIEROBJECT77                                      NONE                
 JFCTRIAD  HIEROBJECT15                                                          
 0.000000000000E+00  4.4408920985006E-16 -1.000000000000E+00 0.000000000000E+00  
@@ -1006,12 +1006,11 @@ WHEELS_7/WHEELS_7_com
 NAMEMAP   HIEROBJECT111       1    14   UTF8 UTF8 ELEMENT                       
 1                                                                               
 the_ground/gnd                                                                  
-NAMEMAP   CURRENT_DIRECTORY   82   0    UTF8 UTF8 FILE                          
-C:\Users\aymen\OneDrive\Documents\GitHub\Loop-URC\test_rover\Lunarkhod 1 alt_hil
-ls                                                                              
+NAMEMAP   CURRENT_DIRECTORY   66   0    UTF8 UTF8 FILE                          
+C:\Users\ericy\Documents\Loop-URC\test_rover\Lunarkhod 1 alt_hills              
 SYSTEM   GMETER               DYNAMIC             SPARSE    FULL_NCBF      TRUE 
 9.8066500000000E+00 0.000000000000E+00  0.000000000000E+00  -1.000000000000E+00 
-1.0000000000000E+00 0.000000000000E+00  5.0000000000000E+00 1.0000000000000E-02 
+1.0000000000000E+00 0.000000000000E+00  5.3000000000000E+00 1.0000000000000E-02 
 1.0000000000000E-09 1.0000000000000E-03 NULL_FALSEBINARY_ONLFALSEKILOGNEWTO    1
 NONE                NONE                    1NONE                TRUE ITERAFALSE
 NONE                NONE                                                        
@@ -1119,7 +1118,7 @@ NONE                NONE                NONE
 NONE                NONE                NONE                                    
 HIEROBJECT16                                                                    
 0.000000000000E+00  0.000000000000E+00  0.000000000000E+00                      
-1.0770472166411E+03 1.1514924700307E+02 6.1909365279910E+01 6.1645154718560E+01 
+3.6287331977270E+01 3.8791665236100E+00 2.0849968812000E+00 2.0774231989600E+00 
 0.000000000000E+00  0.000000000000E+00  0.000000000000E+00                      
 0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  FALSE               
 0.000000000000E+00  0.000000000000E+00  0.000000000000E+00                      
@@ -1547,7 +1546,7 @@ REL.ANGLE POLYNOMIAL          NONE                REVOLUTE_JOINT5
 0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  
 1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00                      
 1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00                      
-0.000000000000E+00  1.8849555921539E+01 0.000000000000E+00  0.000000000000E+00  
+0.000000000000E+00  1.4660765716752E+01 0.000000000000E+00  0.000000000000E+00  
 NONE                                                        ACTIV               
 UNUSED                                                                          
 UNUSED                                                                          
@@ -1564,7 +1563,7 @@ REL.ANGLE POLYNOMIAL          NONE                REVOLUTE_JOINT6
 0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  
 1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00                      
 1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00                      
-0.000000000000E+00  1.8849555921539E+01 0.000000000000E+00  0.000000000000E+00  
+0.000000000000E+00  1.4660765716752E+01 0.000000000000E+00  0.000000000000E+00  
 NONE                                                        ACTIV               
 UNUSED                                                                          
 UNUSED                                                                          
@@ -1581,7 +1580,7 @@ REL.ANGLE POLYNOMIAL          NONE                REVOLUTE_JOINT7
 0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  
 1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00                      
 1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00                      
-0.000000000000E+00  1.8849555921539E+01 0.000000000000E+00  0.000000000000E+00  
+0.000000000000E+00  1.4660765716752E+01 0.000000000000E+00  0.000000000000E+00  
 NONE                                                        ACTIV               
 UNUSED                                                                          
 UNUSED                                                                          
@@ -1598,7 +1597,7 @@ REL.ANGLE POLYNOMIAL          NONE                REVOLUTE_JOINT8
 0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  
 1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00                      
 1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00                      
-0.000000000000E+00  1.8849555921539E+01 0.000000000000E+00  0.000000000000E+00  
+0.000000000000E+00  1.4660765716752E+01 0.000000000000E+00  0.000000000000E+00  
 NONE                                                        ACTIV               
 UNUSED                                                                          
 UNUSED                                                                          
@@ -1615,7 +1614,7 @@ REL.ANGLE POLYNOMIAL          NONE                REVOLUTE_JOINT11
 0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  
 1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00                      
 1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00                      
-0.000000000000E+00  1.8849555921539E+01 0.000000000000E+00  0.000000000000E+00  
+0.000000000000E+00  1.4660765716752E+01 0.000000000000E+00  0.000000000000E+00  
 NONE                                                        ACTIV               
 UNUSED                                                                          
 UNUSED                                                                          
@@ -1632,7 +1631,7 @@ REL.ANGLE POLYNOMIAL          NONE                REVOLUTE_JOINT12
 0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  
 1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00                      
 1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00                      
-0.000000000000E+00  1.8849555921539E+01 0.000000000000E+00  0.000000000000E+00  
+0.000000000000E+00  1.4660765716752E+01 0.000000000000E+00  0.000000000000E+00  
 NONE                                                        ACTIV               
 UNUSED                                                                          
 UNUSED                                                                          
@@ -1649,7 +1648,7 @@ REL.ANGLE POLYNOMIAL          NONE                REVOLUTE_JOINT13
 0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  
 1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00                      
 1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00                      
-0.000000000000E+00  1.8849555921539E+01 0.000000000000E+00  0.000000000000E+00  
+0.000000000000E+00  1.4660765716752E+01 0.000000000000E+00  0.000000000000E+00  
 NONE                                                        ACTIV               
 UNUSED                                                                          
 UNUSED                                                                          
@@ -1666,7 +1665,7 @@ REL.ANGLE POLYNOMIAL          NONE                REVOLUTE_JOINT14
 0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  
 1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00                      
 1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00                      
-0.000000000000E+00  1.8849555921539E+01 0.000000000000E+00  0.000000000000E+00  
+0.000000000000E+00  1.4660765716752E+01 0.000000000000E+00  0.000000000000E+00  
 NONE                                                        ACTIV               
 UNUSED                                                                          
 UNUSED                                                                          
@@ -1927,30 +1926,30 @@ Drv007_RZ
 NAMEMAP   DRIVER_JOINT8       9    9    UTF8 UTF8 ELEMENT                       
 Drv008_RZ                                                                       
 Drv008_RZ                                                                       
-NAMEMAP   FILE1               138  0    UTF8 UTF8 FILE                          
-C:\Users\aymen\OneDrive\Documents\GitHub\Loop-URC\test_rover\Lunarkhod 1 alt_hil
-ls\Lunarkhod 1 sim_alt_smallHills-Solution001_119_B007.off                      
-NAMEMAP   FILE2               142  0    UTF8 UTF8 FILE                          
-C:\Users\aymen\OneDrive\Documents\GitHub\Loop-URC\test_rover\Lunarkhod 1 alt_hil
-ls\Lunarkhod 1 sim_alt_smallHills-Solution001_119_WHEELS_4.off                  
-NAMEMAP   FILE3               142  0    UTF8 UTF8 FILE                          
-C:\Users\aymen\OneDrive\Documents\GitHub\Loop-URC\test_rover\Lunarkhod 1 alt_hil
-ls\Lunarkhod 1 sim_alt_smallHills-Solution001_120_WHEELS_5.off                  
-NAMEMAP   FILE4               142  0    UTF8 UTF8 FILE                          
-C:\Users\aymen\OneDrive\Documents\GitHub\Loop-URC\test_rover\Lunarkhod 1 alt_hil
-ls\Lunarkhod 1 sim_alt_smallHills-Solution001_121_WHEELS_6.off                  
-NAMEMAP   FILE5               142  0    UTF8 UTF8 FILE                          
-C:\Users\aymen\OneDrive\Documents\GitHub\Loop-URC\test_rover\Lunarkhod 1 alt_hil
-ls\Lunarkhod 1 sim_alt_smallHills-Solution001_122_WHEELS_7.off                  
-NAMEMAP   FILE6               142  0    UTF8 UTF8 FILE                          
-C:\Users\aymen\OneDrive\Documents\GitHub\Loop-URC\test_rover\Lunarkhod 1 alt_hil
-ls\Lunarkhod 1 sim_alt_smallHills-Solution001_123_WHEELS_3.off                  
-NAMEMAP   FILE7               142  0    UTF8 UTF8 FILE                          
-C:\Users\aymen\OneDrive\Documents\GitHub\Loop-URC\test_rover\Lunarkhod 1 alt_hil
-ls\Lunarkhod 1 sim_alt_smallHills-Solution001_124_WHEELS_2.off                  
-NAMEMAP   FILE8               142  0    UTF8 UTF8 FILE                          
-C:\Users\aymen\OneDrive\Documents\GitHub\Loop-URC\test_rover\Lunarkhod 1 alt_hil
-ls\Lunarkhod 1 sim_alt_smallHills-Solution001_125_WHEELS_1.off                  
-NAMEMAP   FILE9               140  0    UTF8 UTF8 FILE                          
-C:\Users\aymen\OneDrive\Documents\GitHub\Loop-URC\test_rover\Lunarkhod 1 alt_hil
-ls\Lunarkhod 1 sim_alt_smallHills-Solution001_126_WHEELS.off                    
+NAMEMAP   FILE1               122  0    UTF8 UTF8 FILE                          
+C:\Users\ericy\Documents\Loop-URC\test_rover\Lunarkhod 1 alt_hills\Lunarkhod 1 s
+im_alt_smallHills-Solution001_119_B007.off                                      
+NAMEMAP   FILE2               126  0    UTF8 UTF8 FILE                          
+C:\Users\ericy\Documents\Loop-URC\test_rover\Lunarkhod 1 alt_hills\Lunarkhod 1 s
+im_alt_smallHills-Solution001_119_WHEELS_4.off                                  
+NAMEMAP   FILE3               126  0    UTF8 UTF8 FILE                          
+C:\Users\ericy\Documents\Loop-URC\test_rover\Lunarkhod 1 alt_hills\Lunarkhod 1 s
+im_alt_smallHills-Solution001_120_WHEELS_5.off                                  
+NAMEMAP   FILE4               126  0    UTF8 UTF8 FILE                          
+C:\Users\ericy\Documents\Loop-URC\test_rover\Lunarkhod 1 alt_hills\Lunarkhod 1 s
+im_alt_smallHills-Solution001_121_WHEELS_6.off                                  
+NAMEMAP   FILE5               126  0    UTF8 UTF8 FILE                          
+C:\Users\ericy\Documents\Loop-URC\test_rover\Lunarkhod 1 alt_hills\Lunarkhod 1 s
+im_alt_smallHills-Solution001_122_WHEELS_7.off                                  
+NAMEMAP   FILE6               126  0    UTF8 UTF8 FILE                          
+C:\Users\ericy\Documents\Loop-URC\test_rover\Lunarkhod 1 alt_hills\Lunarkhod 1 s
+im_alt_smallHills-Solution001_123_WHEELS_3.off                                  
+NAMEMAP   FILE7               126  0    UTF8 UTF8 FILE                          
+C:\Users\ericy\Documents\Loop-URC\test_rover\Lunarkhod 1 alt_hills\Lunarkhod 1 s
+im_alt_smallHills-Solution001_124_WHEELS_2.off                                  
+NAMEMAP   FILE8               126  0    UTF8 UTF8 FILE                          
+C:\Users\ericy\Documents\Loop-URC\test_rover\Lunarkhod 1 alt_hills\Lunarkhod 1 s
+im_alt_smallHills-Solution001_125_WHEELS_1.off                                  
+NAMEMAP   FILE9               124  0    UTF8 UTF8 FILE                          
+C:\Users\ericy\Documents\Loop-URC\test_rover\Lunarkhod 1 alt_hills\Lunarkhod 1 s
+im_alt_smallHills-Solution001_126_WHEELS.off                                    
