@@ -112,7 +112,7 @@ Results achieved by the model assembly process with drivers:
 
  Element: CHASSIS
     Coordinate    New Value     Original Value  Difference
-    X             0.82635        0.82635         0.0000    
+    X             0.82644        0.82644         0.0000    
     Y              2.5141         2.5141         0.0000    
     Z              1.6160         1.6160         0.0000    
     E0            0.70711        0.70711         0.0000    
@@ -212,11 +212,11 @@ Results achieved by the model assembly process with drivers:
 
  Element: J007
     Coordinate    New Value     Original Value  Difference
-    Rel.ang.1    -0.32196E-14   -0.32196E-14     0.0000    
+    Rel.ang.1    -0.19539E-13   -0.19539E-13     0.0000    
 
  Element: J007
     Coordinate    New Value     Original Value  Difference
-    Rel.ang.2     0.32196E-14    0.32196E-14     0.0000    
+    Rel.ang.2     0.19539E-13    0.19539E-13     0.0000    
 
  Element: Drv001_RZ
     Coordinate    New Value     Original Value  Difference
@@ -245,32 +245,32 @@ Results achieved by the model assembly process with drivers:
 
 Independent coordinates:
 
- Element: BOGIE
+ Element: WHEELS_2
       Coordinate:  Z         
 
  Element: WHEELS_5
       Coordinate:  Z         
 
+ Element: WHEELS_3
+      Coordinate:  Z         
+
+ Element: WHEELS_4
+      Coordinate:  Z         
+
+ Element: WHEELS
+      Coordinate:  Z         
+
  Element: WHEELS
       Coordinate:  X         
 
  Element: WHEELS_4
       Coordinate:  X         
-
- Element: ROCKER
-      Coordinate:  Y         
-
- Element: WHEELS
-      Coordinate:  Z         
-
- Element: WHEELS_2
-      Coordinate:  X         
-
- Element: WHEELS_4
-      Coordinate:  Z         
 
  Element: WHEELS_1
       Coordinate:  Z         
+
+ Element: CHASSIS
+      Coordinate:  Y         
  Using QR Initial Velocity Method
 
 [1286]
@@ -289,113 +289,113 @@ Solution of initial velocities, using QR method:
 
  Element: BOGIE
     Coordinate    Velocity
-    X             0.916873E-13
-    Y              0.00000    
-    Z            -0.102621E-10
-    E0           -0.111447E-13
-    E1            0.256913E-13
-    E2            0.152834E-13
-    E3           -0.156092E-13
+    X             0.995463E-13
+    Y            -0.428873E-13
+    Z            -0.137841E-10
+    E0            0.502388E-13
+    E1           -0.250139E-13
+    E2           -0.850993E-13
+    E3            0.220910E-13
 
  Element: BOGIE_2
     Coordinate    Velocity
-    X             0.957450E-13
-    Y              0.00000    
-    Z            -0.102427E-10
-    E0           -0.216123E-13
-    E1            0.415676E-13
-    E2            0.316377E-13
-    E3           -0.270851E-13
+    X             0.120428E-12
+    Y            -0.436609E-13
+    Z            -0.136661E-10
+    E0           -0.163693E-13
+    E1            0.748472E-13
+    E2            0.155467E-13
+    E3           -0.448144E-13
 
  Element: CHASSIS
     Coordinate    Velocity
-    X             0.106686E-12
-    Y            -0.114345E-13
-    Z            -0.102741E-10
-    E0            0.248749E-13
-    E1             0.00000    
-    E2            0.243842E-13
-    E3             0.00000    
+    X             0.107434E-12
+    Y            -0.675794E-13
+    Z            -0.137219E-10
+    E0           -0.656831E-13
+    E1           -0.105844E-13
+    E2           -0.656853E-13
+    E3           -0.456569E-13
 
  Element: ROCKER
     Coordinate    Velocity
-    X             0.490309E-13
-    Y            -0.101542E-13
-    Z            -0.102887E-10
-    E0           -0.839510E-13
-    E1            0.909783E-13
-    E2            0.798879E-13
-    E3           -0.869193E-13
+    X             0.610914E-13
+    Y            -0.633252E-13
+    Z            -0.137216E-10
+    E0           -0.105740E-12
+    E1            0.145356E-12
+    E2            0.821603E-13
+    E3           -0.121518E-12
 
  Element: ROCKER_1
     Coordinate    Velocity
-    X             0.513270E-13
-    Y            -0.102233E-13
-    Z            -0.102877E-10
-    E0           -0.847124E-13
-    E1            0.911702E-13
-    E2            0.797813E-13
-    E3           -0.866609E-13
+    X             0.734879E-13
+    Y            -0.623700E-13
+    Z            -0.137143E-10
+    E0           -0.105540E-12
+    E1            0.145223E-12
+    E2            0.814603E-13
+    E3           -0.120633E-12
 
  Element: WHEELS
     Coordinate    Velocity
     X              0.00000    
-    Y            -0.122713E-13
+    Y            -0.741505E-13
     Z              0.00000    
-    E0            -1.11072    
-    E1             0.00000    
-    E2             0.00000    
-    E3            -1.11072    
+    E0            -1.48096    
+    E1            0.291317E-13
+    E2           -0.278901E-13
+    E3            -1.48096    
 
  Element: WHEELS_1
     Coordinate    Velocity
     X              0.00000    
-    Y              0.00000    
+    Y            -0.389320E-13
     Z              0.00000    
-    E0            -1.11072    
-    E1             0.00000    
-    E2             0.00000    
-    E3            -1.11072    
+    E0            -1.48096    
+    E1            0.283183E-13
+    E2           -0.287293E-13
+    E3            -1.48096    
 
  Element: WHEELS_2
     Coordinate    Velocity
-    X             0.664712E-13
+    X             0.158351E-12
     Y              0.00000    
-    Z              0.00000    
-    E0            -1.11072    
-    E1             0.00000    
-    E2             0.00000    
-    E3            -1.11072    
+    Z            -0.190327E-12
+    E0            -1.48096    
+    E1            0.276878E-13
+    E2           -0.272926E-13
+    E3            -1.48096    
 
  Element: WHEELS_3
     Coordinate    Velocity
     X              0.00000    
-    Y              0.00000    
+    Y            -0.373724E-13
     Z              0.00000    
-    E0            -1.11072    
-    E1             0.00000    
-    E2             0.00000    
-    E3            -1.11072    
+    E0            -1.48096    
+    E1            0.273458E-13
+    E2           -0.273893E-13
+    E3            -1.48096    
 
  Element: WHEELS_4
     Coordinate    Velocity
     X              0.00000    
-    Y            -0.114143E-13
+    Y            -0.726372E-13
     Z              0.00000    
-    E0            -1.11072    
-    E1             0.00000    
-    E2             0.00000    
-    E3            -1.11072    
+    E0            -1.48096    
+    E1            0.270080E-13
+    E2           -0.275227E-13
+    E3            -1.48096    
 
  Element: WHEELS_5
     Coordinate    Velocity
-    X             0.534494E-13
+    X             0.738387E-13
     Y              0.00000    
     Z              0.00000    
-    E0            -1.11072    
-    E1             0.00000    
-    E2             0.00000    
-    E3            -1.11072    
+    E0            -1.48096    
+    E1            0.286492E-13
+    E2           -0.284829E-13
+    E3            -1.48096    
 
  Element: the_ground
     Coordinate    Velocity
@@ -409,7 +409,7 @@ Solution of initial velocities, using QR method:
 
  Element: J007
     Coordinate    Velocity
-    Rel.ang.1     0.545513E-13
+    Rel.ang.1     0.340037E-12
 
  Element: J007
     Coordinate    Velocity
@@ -417,27 +417,27 @@ Solution of initial velocities, using QR method:
 
  Element: Drv001_RZ
     Coordinate    Velocity
-    Rel.angle      3.14159    
+    Rel.angle      4.18879    
 
  Element: Drv002_RZ
     Coordinate    Velocity
-    Rel.angle      3.14159    
+    Rel.angle      4.18879    
 
  Element: Drv003_RZ
     Coordinate    Velocity
-    Rel.angle      3.14159    
+    Rel.angle      4.18879    
 
  Element: Drv004_RZ
     Coordinate    Velocity
-    Rel.angle     -3.14159    
+    Rel.angle     -4.18879    
 
  Element: Drv005_RZ
     Coordinate    Velocity
-    Rel.angle     -3.14159    
+    Rel.angle     -4.18879    
 
  Element: Drv006_RZ
     Coordinate    Velocity
-    Rel.angle     -3.14159    
+    Rel.angle     -4.18879    
 
 Solution of velocities in local coordinates:
 
@@ -452,102 +452,102 @@ Solution of velocities in local coordinates:
 
  Element: BOGIE
     Coordinate    Velocity
-    X             0.916873E-13
-    Y              0.00000    
-    Z            -0.102621E-10
-    OMEGA_XL      0.692055E-13
-    OMEGA_YL     -0.157742E-13
-    OMEGA_ZL      0.277241E-14
+    X             0.995463E-13
+    Y            -0.428873E-13
+    Z            -0.137841E-10
+    OMEGA_XL     -0.186314E-12
+    OMEGA_YL     -0.929032E-13
+    OMEGA_ZL      0.131953E-13
 
  Element: BOGIE_2
     Coordinate    Velocity
-    X             0.957450E-13
-    Y              0.00000    
-    Z            -0.102427E-10
-    OMEGA_XL      0.124338E-12
-    OMEGA_YL     -0.159890E-13
-    OMEGA_ZL      0.120893E-14
+    X             0.120428E-12
+    Y            -0.436609E-13
+    Z            -0.136661E-10
+    OMEGA_XL      0.154347E-12
+    OMEGA_YL     -0.922043E-13
+    OMEGA_ZL      0.122358E-13
 
  Element: CHASSIS
     Coordinate    Velocity
-    X             0.106686E-12
-    Y            -0.114345E-13
-    Z            -0.102741E-10
-    OMEGA_XL       0.00000    
-    OMEGA_YL      0.696628E-13
-    OMEGA_ZL       0.00000    
+    X             0.107434E-12
+    Y            -0.675794E-13
+    Z            -0.137219E-10
+    OMEGA_XL     -0.795373E-13
+    OMEGA_YL     -0.185783E-12
+    OMEGA_ZL     -0.495999E-13
 
  Element: ROCKER
     Coordinate    Velocity
-    X             0.490309E-13
-    Y            -0.101542E-13
-    Z            -0.102887E-10
-    OMEGA_XL      0.341737E-12
-    OMEGA_YL     -0.140587E-13
-    OMEGA_ZL      0.812204E-14
+    X             0.610914E-13
+    Y            -0.633252E-13
+    Z            -0.137216E-10
+    OMEGA_XL      0.454775E-12
+    OMEGA_YL     -0.789738E-13
+    OMEGA_ZL      0.474176E-13
 
  Element: ROCKER_1
     Coordinate    Velocity
-    X             0.513270E-13
-    Y            -0.102233E-13
-    Z            -0.102877E-10
-    OMEGA_XL      0.342325E-12
-    OMEGA_YL     -0.133373E-13
-    OMEGA_ZL      0.944045E-14
+    X             0.734879E-13
+    Y            -0.623700E-13
+    Z            -0.137143E-10
+    OMEGA_XL      0.452857E-12
+    OMEGA_YL     -0.788570E-13
+    OMEGA_ZL      0.486693E-13
 
  Element: WHEELS
     Coordinate    Velocity
     X              0.00000    
-    Y            -0.122713E-13
+    Y            -0.741505E-13
     Z              0.00000    
-    OMEGA_XL       3.14159    
-    OMEGA_YL      0.888178E-14
-    OMEGA_ZL       0.00000    
+    OMEGA_XL       4.18879    
+    OMEGA_YL      0.470735E-13
+    OMEGA_ZL      0.806409E-13
 
  Element: WHEELS_1
     Coordinate    Velocity
     X              0.00000    
-    Y              0.00000    
+    Y            -0.389320E-13
     Z              0.00000    
-    OMEGA_XL       3.14159    
-    OMEGA_YL      0.821565E-14
-    OMEGA_ZL       0.00000    
+    OMEGA_XL       4.18879    
+    OMEGA_YL      0.466294E-13
+    OMEGA_ZL      0.806774E-13
 
  Element: WHEELS_2
     Coordinate    Velocity
-    X             0.664712E-13
+    X             0.158351E-12
     Y              0.00000    
-    Z              0.00000    
-    OMEGA_XL       3.14159    
-    OMEGA_YL      0.843769E-14
-    OMEGA_ZL       0.00000    
+    Z            -0.190327E-12
+    OMEGA_XL       4.18879    
+    OMEGA_YL      0.497380E-13
+    OMEGA_ZL      0.777541E-13
 
  Element: WHEELS_3
     Coordinate    Velocity
     X              0.00000    
-    Y              0.00000    
+    Y            -0.373724E-13
     Z              0.00000    
-    OMEGA_XL       3.14159    
-    OMEGA_YL      0.106581E-13
-    OMEGA_ZL       0.00000    
+    OMEGA_XL       4.18879    
+    OMEGA_YL      0.488498E-13
+    OMEGA_ZL      0.774072E-13
 
  Element: WHEELS_4
     Coordinate    Velocity
     X              0.00000    
-    Y            -0.114143E-13
+    Y            -0.726372E-13
     Z              0.00000    
-    OMEGA_XL       3.14159    
-    OMEGA_YL      0.102141E-13
-    OMEGA_ZL       0.00000    
+    OMEGA_XL       4.18879    
+    OMEGA_YL      0.501821E-13
+    OMEGA_ZL      0.771180E-13
 
  Element: WHEELS_5
     Coordinate    Velocity
-    X             0.534494E-13
+    X             0.738387E-13
     Y              0.00000    
     Z              0.00000    
-    OMEGA_XL       3.14159    
-    OMEGA_YL      0.666134E-14
-    OMEGA_ZL       0.00000    
+    OMEGA_XL       4.18879    
+    OMEGA_YL      0.484057E-13
+    OMEGA_ZL      0.807971E-13
 
  Element: the_ground
     Coordinate    Velocity
@@ -575,102 +575,102 @@ Solution of accelerations in local coordinates:
 
  Element: BOGIE
     Coordinate    Acceleration
-    X              2.13148    
-    Y             0.270650E-14
-    Z             -9.44964    
-    OMEGAD_XL      1.91449    
-    OMEGAD_YL    -0.174305E-13
-    OMEGAD_ZL    -0.871525E-14
+    X              1.56407    
+    Y             0.335687E-14
+    Z             -9.60057    
+    OMEGAD_XL      1.02799    
+    OMEGAD_YL    -0.173750E-13
+    OMEGAD_ZL    -0.125178E-13
 
  Element: BOGIE_2
     Coordinate    Acceleration
-    X              2.13148    
-    Y             0.279776E-14
-    Z             -9.44964    
-    OMEGAD_XL      1.91449    
-    OMEGAD_YL    -0.175415E-13
-    OMEGAD_ZL    -0.938138E-14
+    X              1.56407    
+    Y             0.355329E-14
+    Z             -9.60057    
+    OMEGAD_XL      1.02799    
+    OMEGAD_YL    -0.172640E-13
+    OMEGAD_ZL    -0.124623E-13
 
  Element: CHASSIS
     Coordinate    Acceleration
-    X              2.38906    
-    Y             0.110555E-14
-    Z             -9.87671    
-    OMEGAD_XL    -0.133858E-13
-    OMEGAD_YL      1.91449    
-    OMEGAD_ZL     0.103550E-13
+    X              1.70238    
+    Y             0.859805E-15
+    Z             -9.82998    
+    OMEGAD_XL    -0.175530E-13
+    OMEGAD_YL      1.02799    
+    OMEGAD_ZL     0.959735E-14
 
  Element: ROCKER
     Coordinate    Acceleration
-    X             -2.86900    
-    Y            -0.521071E-14
-    Z             -10.1685    
-    OMEGAD_XL      49.9255    
-    OMEGAD_YL    -0.355271E-13
-    OMEGAD_ZL    -0.142109E-13
+    X             -3.62860    
+    Y            -0.535283E-14
+    Z             -9.98655    
+    OMEGAD_XL      52.9275    
+    OMEGAD_YL    -0.408562E-13
+    OMEGAD_ZL    -0.355271E-14
 
  Element: ROCKER_1
     Coordinate    Acceleration
-    X             -2.86900    
-    Y            -0.489744E-14
-    Z             -10.1685    
-    OMEGAD_XL      49.9255    
+    X             -3.62860    
+    Y            -0.583208E-14
+    Z             -9.98655    
+    OMEGAD_XL      52.9275    
     OMEGAD_YL    -0.142109E-13
-    OMEGAD_ZL    -0.177636E-13
+    OMEGAD_ZL    -0.106581E-13
 
  Element: WHEELS
     Coordinate    Acceleration
-    X             -10.2003    
-    Y            -0.148022E-13
-    Z             -21.5815    
-    OMEGAD_XL      49.9255    
-    OMEGAD_YL    -0.213163E-13
-    OMEGAD_ZL     0.710543E-14
+    X             -11.4007    
+    Y            -0.143466E-13
+    Z             -22.0858    
+    OMEGAD_XL      52.9275    
+    OMEGAD_YL     0.319744E-12
+    OMEGAD_ZL    -0.156319E-12
 
  Element: WHEELS_1
     Coordinate    Acceleration
-    X             -10.2003    
-    Y             0.301273E-14
-    Z              1.24449    
-    OMEGAD_XL      49.9255    
-    OMEGAD_YL    -0.213163E-13
-    OMEGAD_ZL     0.932587E-14
+    X             -11.4007    
+    Y             0.224245E-14
+    Z              2.11267    
+    OMEGAD_XL      52.9275    
+    OMEGAD_YL     0.312639E-12
+    OMEGAD_ZL    -0.156319E-12
 
  Element: WHEELS_2
     Coordinate    Acceleration
-    X              1.45919    
-    Y             0.296348E-14
-    Z             -8.85552    
-    OMEGAD_XL      1.91449    
-    OMEGAD_YL    -0.643929E-14
-    OMEGAD_ZL    -0.128786E-13
+    X              1.20309    
+    Y             0.536118E-14
+    Z             -9.28156    
+    OMEGAD_XL      1.02799    
+    OMEGAD_YL     0.323963E-12
+    OMEGAD_ZL    -0.190958E-12
 
  Element: WHEELS_3
     Coordinate    Acceleration
-    X             -10.2003    
-    Y            -0.246703E-14
-    Z              1.24449    
-    OMEGAD_XL      49.9255    
-    OMEGAD_YL    -0.177636E-13
-    OMEGAD_ZL    -0.208722E-13
+    X             -11.4007    
+    Y            -0.506352E-14
+    Z              2.11267    
+    OMEGAD_XL      52.9275    
+    OMEGAD_YL     0.309086E-12
+    OMEGAD_ZL    -0.195399E-12
 
  Element: WHEELS_4
     Coordinate    Acceleration
-    X             -10.2003    
-    Y            -0.106905E-13
-    Z             -21.5815    
-    OMEGAD_XL      49.9255    
-    OMEGAD_YL    -0.248690E-13
-    OMEGAD_ZL    -0.182077E-13
+    X             -11.4007    
+    Y            -0.126588E-13
+    Z             -22.0858    
+    OMEGAD_XL      52.9275    
+    OMEGAD_YL     0.305533E-12
+    OMEGAD_ZL    -0.199840E-12
 
  Element: WHEELS_5
     Coordinate    Acceleration
-    X              1.45919    
-    Y             0.332792E-14
-    Z             -8.85552    
-    OMEGAD_XL      1.91449    
-    OMEGAD_YL    -0.156541E-13
-    OMEGAD_ZL    -0.621725E-14
+    X              1.20309    
+    Y             0.565690E-14
+    Z             -9.28156    
+    OMEGAD_XL      1.02799    
+    OMEGAD_YL     0.320854E-12
+    OMEGAD_ZL    -0.184741E-12
 
  Element: the_ground
     Coordinate    Acceleration
@@ -693,1938 +693,2484 @@ Number of Degrees of Freedom       =    9
 Warning from Sparse matrix solution package.
 Matrix decomposition failed. Solver will recreate symbolic factorization
 and try decomposition of matrix again.
-  Warning flag            =    272
-  Current simulation time =   0.773028E-02
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    259
-  Current simulation time =   0.980666E-02
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    118
-  Current simulation time =   0.114601E-01
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =     -2
-  Current simulation time =   0.116579E-01
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    319
-  Current simulation time =   0.130315E-01
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    310
-  Current simulation time =   0.212079E-01
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    129
-  Current simulation time =   0.363269E-01
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    317
-  Current simulation time =   0.378522E-01
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    296
-  Current simulation time =   0.470339E-01
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    328
-  Current simulation time =   0.760034E-01
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    122
-  Current simulation time =   0.190052
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    221
-  Current simulation time =   0.239041
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    283
-  Current simulation time =   0.239463
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    118
-  Current simulation time =   0.275211
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    203
-  Current simulation time =   0.282732
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =     -2
-  Current simulation time =   0.291181
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    161
-  Current simulation time =   0.317901
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    311
-  Current simulation time =   0.385841
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    255
-  Current simulation time =   0.389082
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    221
-  Current simulation time =   0.425687
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    313
-  Current simulation time =   0.426137
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    233
-  Current simulation time =   0.467022
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    306
-  Current simulation time =   0.478901
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    311
-  Current simulation time =   0.503314
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    232
-  Current simulation time =   0.512979
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    297
-  Current simulation time =   0.515670
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    224
-  Current simulation time =   0.595305
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    312
-  Current simulation time =   0.597127
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    323
-  Current simulation time =   0.619589
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    321
-  Current simulation time =   0.627831
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    317
-  Current simulation time =   0.793514
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    268
-  Current simulation time =   0.795451
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    227
-  Current simulation time =   0.800219
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    284
-  Current simulation time =   0.846731
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    231
-  Current simulation time =   0.876724
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    179
-  Current simulation time =   0.917006
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    230
-  Current simulation time =   0.959071
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    313
-  Current simulation time =    1.20046
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    303
-  Current simulation time =    1.29716
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    285
-  Current simulation time =    1.29655
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    311
-  Current simulation time =    1.29666
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    170
-  Current simulation time =    1.30123
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    232
-  Current simulation time =    1.30600
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    325
-  Current simulation time =    1.30612
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    322
-  Current simulation time =    1.30623
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    288
-  Current simulation time =    1.35419
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    188
-  Current simulation time =    1.37641
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    273
-  Current simulation time =    1.37966
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    290
-  Current simulation time =    1.40279
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    118
-  Current simulation time =    1.41397
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    323
-  Current simulation time =    1.41478
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    275
-  Current simulation time =    1.41700
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    194
-  Current simulation time =    1.43539
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    225
-  Current simulation time =    1.45112
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    223
-  Current simulation time =    1.45104
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    189
-  Current simulation time =    1.46551
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    303
-  Current simulation time =    1.52929
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    310
-  Current simulation time =    1.55179
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    306
-  Current simulation time =    1.54322
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    311
-  Current simulation time =    1.54036
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    286
-  Current simulation time =    1.54706
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    319
-  Current simulation time =    1.59741
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    322
-  Current simulation time =    1.60298
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    199
-  Current simulation time =    1.60607
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    231
-  Current simulation time =    1.63275
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    242
-  Current simulation time =    1.63286
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
   Warning flag            =    271
-  Current simulation time =    1.63505
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    309
-  Current simulation time =    1.63511
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    265
-  Current simulation time =    1.70418
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    296
-  Current simulation time =    1.69169
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    251
-  Current simulation time =    1.69356
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =     -2
-  Current simulation time =    1.69340
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    269
-  Current simulation time =    1.69356
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    327
-  Current simulation time =    1.70642
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    313
-  Current simulation time =    1.70789
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    184
-  Current simulation time =    1.71511
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    132
-  Current simulation time =    1.73458
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =     -2
-  Current simulation time =    1.73448
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    138
-  Current simulation time =    1.73459
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =     -2
-  Current simulation time =    1.73453
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    138
-  Current simulation time =    1.73459
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    158
-  Current simulation time =    1.73551
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    309
-  Current simulation time =    1.73909
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    235
-  Current simulation time =    1.74098
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    117
-  Current simulation time =    1.76174
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    286
-  Current simulation time =    1.75908
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    221
-  Current simulation time =    1.77772
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    124
-  Current simulation time =    1.80529
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    305
-  Current simulation time =    1.81146
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    290
-  Current simulation time =    1.82157
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    165
-  Current simulation time =    1.85854
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =     -2
-  Current simulation time =    1.85426
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    179
-  Current simulation time =    1.85493
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =     -2
-  Current simulation time =    1.85483
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    176
-  Current simulation time =    1.85493
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    316
-  Current simulation time =    1.85487
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    247
-  Current simulation time =    1.85501
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    175
-  Current simulation time =    1.85613
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    128
-  Current simulation time =    1.86122
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    295
-  Current simulation time =    1.86072
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =     -2
-  Current simulation time =    1.86130
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    252
-  Current simulation time =    1.86208
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    142
-  Current simulation time =    1.88160
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    186
-  Current simulation time =    1.89742
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    273
-  Current simulation time =    1.90509
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    234
-  Current simulation time =    1.90556
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    225
-  Current simulation time =    1.90913
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    284
-  Current simulation time =    2.01240
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =     -2
-  Current simulation time =    2.01421
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    183
-  Current simulation time =    2.02207
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    275
-  Current simulation time =    2.02912
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    281
-  Current simulation time =    2.04378
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    235
-  Current simulation time =    2.04427
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    244
-  Current simulation time =    2.05082
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    296
-  Current simulation time =    2.05004
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    247
-  Current simulation time =    2.05284
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    208
-  Current simulation time =    2.08704
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    320
-  Current simulation time =    2.12618
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    122
-  Current simulation time =    2.14661
+  Current simulation time =   0.804450E-02
 
 [1027]
 Warning from Sparse matrix solution package.
 Matrix decomposition failed. Solver will recreate symbolic factorization
 and try decomposition of matrix again.
   Warning flag            =    118
-  Current simulation time =    2.16210
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    199
-  Current simulation time =    2.16353
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    283
-  Current simulation time =    2.17151
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    328
-  Current simulation time =    2.17179
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =     88
-  Current simulation time =    2.18149
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    261
-  Current simulation time =    2.18333
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    248
-  Current simulation time =    2.18516
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    245
-  Current simulation time =    2.21920
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    164
-  Current simulation time =    2.22146
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    303
-  Current simulation time =    2.22431
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    237
-  Current simulation time =    2.25154
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    327
-  Current simulation time =    2.25162
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    286
-  Current simulation time =    2.25200
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    117
-  Current simulation time =    2.25308
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    137
-  Current simulation time =    2.31281
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    241
-  Current simulation time =    2.30959
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    200
-  Current simulation time =    2.30989
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    243
-  Current simulation time =    2.32690
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    249
-  Current simulation time =    2.37792
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    118
-  Current simulation time =    2.38369
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    323
-  Current simulation time =    2.42961
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    118
-  Current simulation time =    2.45597
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    119
-  Current simulation time =    2.45674
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    325
-  Current simulation time =    2.47138
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    249
-  Current simulation time =    2.52320
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    321
-  Current simulation time =    2.51816
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    323
-  Current simulation time =    2.51840
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    253
-  Current simulation time =    2.52293
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    121
-  Current simulation time =    2.54002
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    307
-  Current simulation time =    2.53526
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    121
-  Current simulation time =    2.53796
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    311
-  Current simulation time =    2.53809
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    294
-  Current simulation time =    2.55948
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    230
-  Current simulation time =    2.56411
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    257
-  Current simulation time =    2.59607
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =     -2
-  Current simulation time =    2.59304
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    269
-  Current simulation time =    2.59412
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =     -2
-  Current simulation time =    2.59464
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    250
-  Current simulation time =    2.60762
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    129
-  Current simulation time =    2.67126
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =     -2
-  Current simulation time =    2.67115
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    129
-  Current simulation time =    2.67123
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    292
-  Current simulation time =    2.67756
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    165
-  Current simulation time =    2.69572
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =     -2
-  Current simulation time =    2.69202
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    180
-  Current simulation time =    2.69207
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =     -2
-  Current simulation time =    2.69455
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    308
-  Current simulation time =    2.69499
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    168
-  Current simulation time =    2.70706
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    302
-  Current simulation time =    2.70682
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    198
-  Current simulation time =    2.71296
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    119
-  Current simulation time =    2.72291
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =     -2
-  Current simulation time =    2.72284
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =     -2
-  Current simulation time =    2.72356
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    124
-  Current simulation time =    2.73400
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    325
-  Current simulation time =    2.73089
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    120
-  Current simulation time =    2.73177
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    292
-  Current simulation time =    2.74218
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    118
-  Current simulation time =    2.74691
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    274
-  Current simulation time =    2.75540
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    296
-  Current simulation time =    2.75256
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    263
-  Current simulation time =    2.75294
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =     -2
-  Current simulation time =    2.75368
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    225
-  Current simulation time =    2.75633
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    184
-  Current simulation time =    2.84425
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    323
-  Current simulation time =    2.84533
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    304
-  Current simulation time =    2.85295
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    234
-  Current simulation time =    2.89053
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =     -2
-  Current simulation time =    2.89060
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    194
-  Current simulation time =    2.89276
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    210
-  Current simulation time =    2.94142
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    270
-  Current simulation time =    2.94348
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    307
-  Current simulation time =    2.95504
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    245
-  Current simulation time =    3.02961
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    216
-  Current simulation time =    3.17145
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    319
-  Current simulation time =    3.19321
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    165
-  Current simulation time =    3.19825
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    324
-  Current simulation time =    3.20941
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    203
-  Current simulation time =    3.24820
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    316
-  Current simulation time =    3.24679
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    252
-  Current simulation time =    3.25470
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    285
-  Current simulation time =    3.33267
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    247
-  Current simulation time =    3.34057
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    268
-  Current simulation time =    3.34420
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    309
-  Current simulation time =    3.36198
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    321
-  Current simulation time =    3.37439
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    170
-  Current simulation time =    3.37885
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    239
-  Current simulation time =    3.45584
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    167
-  Current simulation time =    3.46377
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    254
-  Current simulation time =    3.47896
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    308
-  Current simulation time =    3.49795
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    227
-  Current simulation time =    3.49490
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    309
-  Current simulation time =    3.49605
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    137
-  Current simulation time =    3.63227
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    222
-  Current simulation time =    3.64615
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    218
-  Current simulation time =    3.64993
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    299
-  Current simulation time =    3.65603
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    318
-  Current simulation time =    3.71147
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    235
-  Current simulation time =    3.73418
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =     -2
-  Current simulation time =    3.73139
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    282
-  Current simulation time =    3.73104
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    259
-  Current simulation time =    3.73446
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    321
-  Current simulation time =    3.73975
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    240
-  Current simulation time =    3.74582
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    317
-  Current simulation time =    3.74495
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    302
-  Current simulation time =    3.74507
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =     -2
-  Current simulation time =    3.74527
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    231
-  Current simulation time =    3.75807
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    299
-  Current simulation time =    3.76232
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    227
-  Current simulation time =    3.81258
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    194
-  Current simulation time =    3.81407
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    169
-  Current simulation time =    3.81752
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    316
-  Current simulation time =    3.81793
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    207
-  Current simulation time =    3.82414
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =     -2
-  Current simulation time =    3.85097
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    295
-  Current simulation time =    3.86112
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    231
-  Current simulation time =    3.85892
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    181
-  Current simulation time =    3.86717
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    308
-  Current simulation time =    3.86603
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    308
-  Current simulation time =    3.89416
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    323
-  Current simulation time =    3.89854
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    302
-  Current simulation time =    3.93136
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =     -2
-  Current simulation time =    3.95006
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    199
-  Current simulation time =    3.95200
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =     -2
-  Current simulation time =    3.96356
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    318
-  Current simulation time =    3.95909
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    164
-  Current simulation time =    3.96037
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    325
-  Current simulation time =    3.96578
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    193
-  Current simulation time =    3.97919
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    264
-  Current simulation time =    3.98167
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    311
-  Current simulation time =    4.04562
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    298
-  Current simulation time =    4.07465
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    303
-  Current simulation time =    4.07677
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    319
-  Current simulation time =    4.18352
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    316
-  Current simulation time =    4.21630
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    148
-  Current simulation time =    4.27169
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =     -2
-  Current simulation time =    4.26879
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    294
-  Current simulation time =    4.27093
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =     -2
-  Current simulation time =    4.27118
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    169
-  Current simulation time =    4.27231
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    173
-  Current simulation time =    4.30739
+  Current simulation time =   0.101693E-01
 
 [1027]
 Warning from Sparse matrix solution package.
 Matrix decomposition failed. Solver will recreate symbolic factorization
 and try decomposition of matrix again.
   Warning flag            =    315
-  Current simulation time =    4.31626
+  Current simulation time =   0.187147E-01
 
 [1027]
 Warning from Sparse matrix solution package.
 Matrix decomposition failed. Solver will recreate symbolic factorization
 and try decomposition of matrix again.
-  Warning flag            =    223
-  Current simulation time =    4.31935
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    288
-  Current simulation time =    4.32081
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    317
-  Current simulation time =    4.32418
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    302
-  Current simulation time =    4.32416
-
-[1027]
-Warning from Sparse matrix solution package.
-Matrix decomposition failed. Solver will recreate symbolic factorization
-and try decomposition of matrix again.
-  Warning flag            =    262
-  Current simulation time =    4.32524
+  Warning flag            =    148
+  Current simulation time =   0.192423E-01
 
 [1027]
 Warning from Sparse matrix solution package.
 Matrix decomposition failed. Solver will recreate symbolic factorization
 and try decomposition of matrix again.
   Warning flag            =    303
-  Current simulation time =    4.32817
+  Current simulation time =   0.193231E-01
 
 [1027]
 Warning from Sparse matrix solution package.
 Matrix decomposition failed. Solver will recreate symbolic factorization
 and try decomposition of matrix again.
-  Warning flag            =    316
-  Current simulation time =    4.33666
+  Warning flag            =    317
+  Current simulation time =   0.196386E-01
 
 [1027]
 Warning from Sparse matrix solution package.
 Matrix decomposition failed. Solver will recreate symbolic factorization
 and try decomposition of matrix again.
-  Warning flag            =    216
-  Current simulation time =    4.33916
+  Warning flag            =    268
+  Current simulation time =   0.513838E-01
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    320
+  Current simulation time =   0.666899E-01
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    223
+  Current simulation time =   0.100540
 
 [1027]
 Warning from Sparse matrix solution package.
 Matrix decomposition failed. Solver will recreate symbolic factorization
 and try decomposition of matrix again.
   Warning flag            =    295
-  Current simulation time =    4.35854
+  Current simulation time =   0.102230
 
 [1027]
 Warning from Sparse matrix solution package.
 Matrix decomposition failed. Solver will recreate symbolic factorization
 and try decomposition of matrix again.
-  Warning flag            =    218
-  Current simulation time =    4.35939
+  Warning flag            =    229
+  Current simulation time =   0.123383
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    233
+  Current simulation time =   0.152467
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    298
+  Current simulation time =   0.158303
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    323
+  Current simulation time =   0.174860
 
 [1027]
 Warning from Sparse matrix solution package.
 Matrix decomposition failed. Solver will recreate symbolic factorization
 and try decomposition of matrix again.
   Warning flag            =     -2
-  Current simulation time =    4.37401
+  Current simulation time =   0.267300
 
 [1027]
 Warning from Sparse matrix solution package.
 Matrix decomposition failed. Solver will recreate symbolic factorization
 and try decomposition of matrix again.
-  Warning flag            =    193
-  Current simulation time =    4.37469
+  Warning flag            =    232
+  Current simulation time =   0.275848
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    283
+  Current simulation time =   0.277407
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     -2
+  Current simulation time =   0.329128
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    233
+  Current simulation time =   0.337102
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    328
+  Current simulation time =   0.398996
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    267
+  Current simulation time =   0.407061
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    232
+  Current simulation time =   0.412935
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    313
+  Current simulation time =   0.414137
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    238
+  Current simulation time =   0.426957
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     91
+  Current simulation time =   0.741128
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    325
+  Current simulation time =   0.773670
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    310
+  Current simulation time =   0.776115
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    251
+  Current simulation time =   0.777713
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    323
+  Current simulation time =   0.779998
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    249
+  Current simulation time =   0.838761
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     97
+  Current simulation time =   0.840683
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    206
+  Current simulation time =   0.900631
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    238
+  Current simulation time =   0.906894
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    294
+  Current simulation time =   0.903854
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    316
+  Current simulation time =   0.904732
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    251
+  Current simulation time =   0.930417
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    306
+  Current simulation time =   0.961118
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    279
+  Current simulation time =   0.985768
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    322
+  Current simulation time =   0.985330
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    223
+  Current simulation time =   0.986027
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    305
+  Current simulation time =   0.991509
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    231
+  Current simulation time =   0.997760
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    299
+  Current simulation time =   0.997989
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    272
+  Current simulation time =    1.05870
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    244
+  Current simulation time =    1.09418
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    117
+  Current simulation time =    1.10068
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    310
+  Current simulation time =    1.10085
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    133
+  Current simulation time =    1.11804
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    137
+  Current simulation time =    1.12667
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    298
+  Current simulation time =    1.12583
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    307
+  Current simulation time =    1.12874
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    154
+  Current simulation time =    1.13297
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    316
+  Current simulation time =    1.13206
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    227
+  Current simulation time =    1.13321
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    277
+  Current simulation time =    1.13309
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    316
+  Current simulation time =    1.13326
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     88
+  Current simulation time =    1.15610
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    300
+  Current simulation time =    1.15480
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    171
+  Current simulation time =    1.15483
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    167
+  Current simulation time =    1.15739
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     -2
+  Current simulation time =    1.16018
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    252
+  Current simulation time =    1.17603
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    315
+  Current simulation time =    1.17435
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    129
+  Current simulation time =    1.17547
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    179
+  Current simulation time =    1.19556
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     -2
+  Current simulation time =    1.19536
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    185
+  Current simulation time =    1.19555
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    260
+  Current simulation time =    1.19632
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    165
+  Current simulation time =    1.19670
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    301
+  Current simulation time =    1.20720
 
 [1027]
 Warning from Sparse matrix solution package.
 Matrix decomposition failed. Solver will recreate symbolic factorization
 and try decomposition of matrix again.
   Warning flag            =    241
-  Current simulation time =    4.38766
+  Current simulation time =    1.20754
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    251
+  Current simulation time =    1.21028
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    116
+  Current simulation time =    1.21051
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     -2
+  Current simulation time =    1.23111
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    252
+  Current simulation time =    1.27511
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     -2
+  Current simulation time =    1.27506
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    286
+  Current simulation time =    1.27585
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    324
+  Current simulation time =    1.28562
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    323
+  Current simulation time =    1.29357
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    252
+  Current simulation time =    1.29986
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    279
+  Current simulation time =    1.29761
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    121
+  Current simulation time =    1.29891
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    247
+  Current simulation time =    1.29849
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    118
+  Current simulation time =    1.29856
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    216
+  Current simulation time =    1.29857
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    230
+  Current simulation time =    1.30086
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    292
+  Current simulation time =    1.30493
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     -2
+  Current simulation time =    1.30542
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    191
+  Current simulation time =    1.30977
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    121
+  Current simulation time =    1.37082
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    302
+  Current simulation time =    1.37019
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    120
+  Current simulation time =    1.37102
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    296
+  Current simulation time =    1.37060
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    120
+  Current simulation time =    1.37103
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    234
+  Current simulation time =    1.37174
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    292
+  Current simulation time =    1.37397
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    182
+  Current simulation time =    1.42232
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    308
+  Current simulation time =    1.42569
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    254
+  Current simulation time =    1.44455
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    322
+  Current simulation time =    1.44592
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    312
+  Current simulation time =    1.45529
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    223
+  Current simulation time =    1.46000
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    240
+  Current simulation time =    1.46173
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    259
+  Current simulation time =    1.46206
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    122
+  Current simulation time =    1.46268
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    172
+  Current simulation time =    1.52609
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    296
+  Current simulation time =    1.52398
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    123
+  Current simulation time =    1.54416
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    322
+  Current simulation time =    1.54556
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    257
+  Current simulation time =    1.55063
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    316
+  Current simulation time =    1.55782
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    311
+  Current simulation time =    1.57757
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    309
+  Current simulation time =    1.59539
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    237
+  Current simulation time =    1.59644
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    247
+  Current simulation time =    1.62050
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    121
+  Current simulation time =    1.62243
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    326
+  Current simulation time =    1.62871
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    222
+  Current simulation time =    1.62949
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    249
+  Current simulation time =    1.63145
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    121
+  Current simulation time =    1.63313
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    289
+  Current simulation time =    1.66280
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    121
+  Current simulation time =    1.66596
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    318
+  Current simulation time =    1.67748
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    121
+  Current simulation time =    1.67873
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    316
+  Current simulation time =    1.69342
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    319
+  Current simulation time =    1.69683
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    211
+  Current simulation time =    1.73574
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     -2
+  Current simulation time =    1.73426
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    234
+  Current simulation time =    1.73377
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    292
+  Current simulation time =    1.73381
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    192
+  Current simulation time =    1.73476
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    325
+  Current simulation time =    1.73535
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    166
+  Current simulation time =    1.74978
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    118
+  Current simulation time =    1.76741
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    228
+  Current simulation time =    1.76793
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    170
+  Current simulation time =    1.77029
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    288
+  Current simulation time =    1.77160
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    205
+  Current simulation time =    1.77843
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    290
+  Current simulation time =    1.77870
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    325
+  Current simulation time =    1.78295
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    321
+  Current simulation time =    1.79344
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    256
+  Current simulation time =    1.79379
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    291
+  Current simulation time =    1.79465
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    293
+  Current simulation time =    1.79512
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    204
+  Current simulation time =    1.79559
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    323
+  Current simulation time =    1.79613
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    203
+  Current simulation time =    1.82873
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    257
+  Current simulation time =    1.82896
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    213
+  Current simulation time =    1.83312
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     -2
+  Current simulation time =    1.84157
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    299
+  Current simulation time =    1.86705
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    325
+  Current simulation time =    1.87274
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    310
+  Current simulation time =    1.87288
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    316
+  Current simulation time =    1.97325
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    147
+  Current simulation time =    1.97746
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    323
+  Current simulation time =    1.97854
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    204
+  Current simulation time =    1.98014
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    320
+  Current simulation time =    1.97961
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    230
+  Current simulation time =    1.98213
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    234
+  Current simulation time =    1.99384
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    316
+  Current simulation time =    1.99427
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    236
+  Current simulation time =    2.02012
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    277
+  Current simulation time =    2.02185
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    199
+  Current simulation time =    2.15834
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    319
+  Current simulation time =    2.19126
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    170
+  Current simulation time =    2.24656
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    322
+  Current simulation time =    2.24580
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    221
+  Current simulation time =    2.26209
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    296
+  Current simulation time =    2.27590
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    305
+  Current simulation time =    2.28822
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    255
+  Current simulation time =    2.40898
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    328
+  Current simulation time =    2.40840
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    289
+  Current simulation time =    2.41005
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    287
+  Current simulation time =    2.41801
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    235
+  Current simulation time =    2.43927
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    297
+  Current simulation time =    2.44528
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     -2
+  Current simulation time =    2.48004
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    204
+  Current simulation time =    2.48005
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    320
+  Current simulation time =    2.49133
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    224
+  Current simulation time =    2.49378
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    158
+  Current simulation time =    2.54340
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    316
+  Current simulation time =    2.54589
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    320
+  Current simulation time =    2.54706
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    224
+  Current simulation time =    2.56928
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    319
+  Current simulation time =    2.58980
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    304
+  Current simulation time =    2.59977
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    322
+  Current simulation time =    2.61866
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    256
+  Current simulation time =    2.62563
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    318
+  Current simulation time =    2.62507
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    289
+  Current simulation time =    2.63080
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    308
+  Current simulation time =    2.63716
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    324
+  Current simulation time =    2.66078
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    256
+  Current simulation time =    2.66095
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    124
+  Current simulation time =    2.67839
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    285
+  Current simulation time =    2.67897
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    205
+  Current simulation time =    2.68263
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    244
+  Current simulation time =    2.68666
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    298
+  Current simulation time =    2.68651
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    165
+  Current simulation time =    2.68671
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    295
+  Current simulation time =    2.69971
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    288
+  Current simulation time =    2.70908
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    194
+  Current simulation time =    2.71385
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    270
+  Current simulation time =    2.72806
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    222
+  Current simulation time =    2.74876
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    315
+  Current simulation time =    2.75273
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    229
+  Current simulation time =    2.76078
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    118
+  Current simulation time =    2.76222
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    313
+  Current simulation time =    2.77665
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    206
+  Current simulation time =    2.85444
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     -2
+  Current simulation time =    2.85397
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    274
+  Current simulation time =    2.87956
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    266
+  Current simulation time =    2.95552
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    217
+  Current simulation time =    3.08415
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    322
+  Current simulation time =    3.08425
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    215
+  Current simulation time =    3.08558
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     -2
+  Current simulation time =    3.08545
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    152
+  Current simulation time =    3.08576
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    252
+  Current simulation time =    3.09578
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    296
+  Current simulation time =    3.09544
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    221
+  Current simulation time =    3.09834
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    237
+  Current simulation time =    3.10978
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    249
+  Current simulation time =    3.11013
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    313
+  Current simulation time =    3.11459
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    160
+  Current simulation time =    3.12901
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    310
+  Current simulation time =    3.12419
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    257
+  Current simulation time =    3.12451
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    319
+  Current simulation time =    3.12506
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    203
+  Current simulation time =    3.13147
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    129
+  Current simulation time =    3.14174
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    314
+  Current simulation time =    3.14195
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    176
+  Current simulation time =    3.16759
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     -2
+  Current simulation time =    3.16746
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    182
+  Current simulation time =    3.16750
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    263
+  Current simulation time =    3.16858
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    264
+  Current simulation time =    3.17256
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    150
+  Current simulation time =    3.20887
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    296
+  Current simulation time =    3.20785
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    246
+  Current simulation time =    3.21786
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    118
+  Current simulation time =    3.22569
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    318
+  Current simulation time =    3.22795
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    164
+  Current simulation time =    3.22910
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     -2
+  Current simulation time =    3.22956
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    252
+  Current simulation time =    3.22996
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    263
+  Current simulation time =    3.23512
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     -2
+  Current simulation time =    3.23523
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    206
+  Current simulation time =    3.25376
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    308
+  Current simulation time =    3.25053
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    227
+  Current simulation time =    3.25217
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     -2
+  Current simulation time =    3.25142
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    260
+  Current simulation time =    3.25156
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    327
+  Current simulation time =    3.25300
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    203
+  Current simulation time =    3.28167
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    129
+  Current simulation time =    3.28754
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    294
+  Current simulation time =    3.29039
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    221
+  Current simulation time =    3.29685
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    177
+  Current simulation time =    3.29755
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     -2
+  Current simulation time =    3.29746
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    177
+  Current simulation time =    3.29764
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     -2
+  Current simulation time =    3.29771
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    180
+  Current simulation time =    3.29899
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    255
+  Current simulation time =    3.30607
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    291
+  Current simulation time =    3.30810
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     -2
+  Current simulation time =    3.30771
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    256
+  Current simulation time =    3.30799
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     -2
+  Current simulation time =    3.30797
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    190
+  Current simulation time =    3.30803
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     -2
+  Current simulation time =    3.30814
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    194
+  Current simulation time =    3.31055
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    117
+  Current simulation time =    3.32607
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     -2
+  Current simulation time =    3.32547
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    117
+  Current simulation time =    3.32590
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    234
+  Current simulation time =    3.32781
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    257
+  Current simulation time =    3.33439
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    310
+  Current simulation time =    3.33853
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    319
+  Current simulation time =    3.34587
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    244
+  Current simulation time =    3.34672
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    308
+  Current simulation time =    3.34714
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    319
+  Current simulation time =    3.35278
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    120
+  Current simulation time =    3.35857
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     -2
+  Current simulation time =    3.35690
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    120
+  Current simulation time =    3.35760
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    323
+  Current simulation time =    3.35709
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    284
+  Current simulation time =    3.38637
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    280
+  Current simulation time =    3.38194
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    318
+  Current simulation time =    3.42074
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    309
+  Current simulation time =    3.42016
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    254
+  Current simulation time =    3.44296
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    267
+  Current simulation time =    3.43825
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    326
+  Current simulation time =    3.50151
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    303
+  Current simulation time =    3.52616
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    308
+  Current simulation time =    3.61852
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    269
+  Current simulation time =    3.65416
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    257
+  Current simulation time =    3.68131
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     -2
+  Current simulation time =    3.68045
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    137
+  Current simulation time =    3.71492
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    293
+  Current simulation time =    3.73456
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    235
+  Current simulation time =    3.73662
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    317
+  Current simulation time =    3.76401
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    208
+  Current simulation time =    3.77529
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    235
+  Current simulation time =    3.80130
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    269
+  Current simulation time =    3.80719
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    287
+  Current simulation time =    3.83756
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    229
+  Current simulation time =    3.83918
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    324
+  Current simulation time =    3.85817
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     -2
+  Current simulation time =    3.88394
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    237
+  Current simulation time =    3.88781
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    268
+  Current simulation time =    3.96856
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     -2
+  Current simulation time =    3.96822
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    289
+  Current simulation time =    3.97033
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    303
+  Current simulation time =    3.97608
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    310
+  Current simulation time =    3.97415
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    228
+  Current simulation time =    3.97977
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    223
+  Current simulation time =    4.00803
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    227
+  Current simulation time =    4.00889
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     -2
+  Current simulation time =    4.01195
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    274
+  Current simulation time =    4.01345
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    317
+  Current simulation time =    4.01936
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    252
+  Current simulation time =    4.02065
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    239
+  Current simulation time =    4.03740
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     -2
+  Current simulation time =    4.03752
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    246
+  Current simulation time =    4.04494
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    248
+  Current simulation time =    4.10227
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    245
+  Current simulation time =    4.11264
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    247
+  Current simulation time =    4.14006
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    318
+  Current simulation time =    4.14919
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    118
+  Current simulation time =    4.15034
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    250
+  Current simulation time =    4.15551
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    220
+  Current simulation time =    4.17934
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    297
+  Current simulation time =    4.17642
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    231
+  Current simulation time =    4.17962
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    273
+  Current simulation time =    4.17814
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    235
+  Current simulation time =    4.17962
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    278
+  Current simulation time =    4.17889
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    204
+  Current simulation time =    4.26717
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    258
+  Current simulation time =    4.27344
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    250
+  Current simulation time =    4.29046
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    320
+  Current simulation time =    4.29503
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    321
+  Current simulation time =    4.32766
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    230
+  Current simulation time =    4.37589
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    307
+  Current simulation time =    4.38596
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    213
+  Current simulation time =    4.39009
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     91
+  Current simulation time =    4.41129
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    287
+  Current simulation time =    4.40948
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    196
+  Current simulation time =    4.41014
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    244
+  Current simulation time =    4.41001
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    216
+  Current simulation time =    4.41170
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    328
+  Current simulation time =    4.41842
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    226
+  Current simulation time =    4.45858
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    265
+  Current simulation time =    4.48743
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    316
+  Current simulation time =    4.49200
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    253
+  Current simulation time =    4.49447
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    286
+  Current simulation time =    4.50035
 
 The number of symbolic factorizations of the Acceleration matrix =                    1
 
-The number of symbolic factorizations of BDF Jacobian matrix =                  275
+The number of symbolic factorizations of BDF Jacobian matrix =                  353
 
 [1441]
 Final integrator statistics:
-  Number of steps                 =                60408
-  Number of f-s                   =               310645
-  Number of j-s                   =                39962
-  Ratio of f-s/steps              =  5.1424480201298
-  Ratio of j-s/steps              = 0.66153489604026
+  Number of steps                 =                87392
+  Number of f-s                   =               454066
+  Number of j-s                   =                58580
+  Ratio of f-s/steps              =  5.1957387403881
+  Ratio of j-s/steps              = 0.67031307213475
   Current time                    =  4.5000000000000
   Total velocity computations     =                    0
   Total position computations     =                    0
-Average Integration Order =   1.057724142498    
-Average Step Size         =  0.7449576113003E-04
+Average Integration Order =   1.048448370560    
+Average Step Size         =  0.5149375688516E-04
 
 Userdef was internal
 
-    Total elapsed CPU time:   52.59800    
-    Total clock time:         52
+    Total elapsed CPU time:   71.27200    
+    Total clock time:         72
