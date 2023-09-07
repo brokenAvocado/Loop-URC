@@ -1512,9 +1512,9 @@ NAMEMAP   HIEROBJECT167       1    14   UTF8 UTF8 ELEMENT
 the_ground/gnd                                                                  
 NAMEMAP   CURRENT_DIRECTORY   63   0    UTF8 UTF8 FILE                          
 C:\Users\ericy\Documents\Loop-URC\test_rover\Crab sim_alt_hills                 
-SYSTEM   GINCH                DYNAMIC             SPARSE    FULL_NCBF      TRUE 
+SYSTEM   GINCH                DYNAMIC             SPARSE    TRUE NCBF      TRUE 
 3.8608858267717E+02 0.000000000000E+00  0.000000000000E+00  -1.000000000000E+00 
-1.0000000000000E+00 0.000000000000E+00  5.0000000000000E+00 1.6666666666667E-02 
+1.0000000000000E+00 0.000000000000E+00  3.8600000000000E+00 6.4333333333333E-03 
 1.0000000000000E-09 1.0000000000000E-03 NULL_FALSEBINARY_ONLFALSESLINCPOUND    1
 NONE                NONE                    1NONE                TRUE ITERAFALSE
 NONE                NONE                                                        
@@ -1872,7 +1872,7 @@ NONE                NONE                NONE                NONE
 NONE                3.0000000000000E-01 3.0000000000000E-01 5.0000000000000E-03 
 TESSELLATED         FILE2               FILE1                                   
 2.0000000000000E+00 1.0000000000000E-03 FALSEFALSE          1.0000000000000E-04 
-6.1000000000000E-01 3.9370000000000E-04 6.0000000000000E-01 3.9370000000000E-03 
+6.2000000000000E-01 3.9370000000000E-04 6.1000000000000E-01 3.9370000000000E-03 
 CONTACT  GCONTACT_TESS2           1    1    1                                   
 BODY21              BODY1               NONE                NONE                
 CAD                 AUTO                                    NONE                
@@ -1891,7 +1891,7 @@ NONE                NONE                NONE                NONE
 NONE                3.0000000000000E-01 3.0000000000000E-01 5.0000000000000E-03 
 TESSELLATED         FILE3               FILE1                                   
 2.0000000000000E+00 1.0000000000000E-03 FALSEFALSE          1.0000000000000E-04 
-6.1000000000000E-01 3.9370000000000E-04 6.0000000000000E-01 3.9370000000000E-03 
+6.2000000000000E-01 3.9370000000000E-04 6.1000000000000E-01 3.9370000000000E-03 
 CONTACT  GCONTACT_TESS3           1    1    1                                   
 BODY22              BODY1               NONE                NONE                
 CAD                 AUTO                                    NONE                
@@ -1910,7 +1910,7 @@ NONE                NONE                NONE                NONE
 NONE                3.0000000000000E-01 3.0000000000000E-01 5.0000000000000E-03 
 TESSELLATED         FILE4               FILE1                                   
 2.0000000000000E+00 1.0000000000000E-03 FALSEFALSE          1.0000000000000E-04 
-6.1000000000000E-01 3.9370000000000E-04 6.0000000000000E-01 3.9370000000000E-03 
+6.2000000000000E-01 3.9370000000000E-04 6.1000000000000E-01 3.9370000000000E-03 
 CONTACT  GCONTACT_TESS4           1    1    1                                   
 BODY23              BODY1               NONE                NONE                
 CAD                 AUTO                                    NONE                
@@ -1929,7 +1929,7 @@ NONE                NONE                NONE                NONE
 NONE                3.0000000000000E-01 3.0000000000000E-01 5.0000000000000E-03 
 TESSELLATED         FILE5               FILE1                                   
 2.0000000000000E+00 1.0000000000000E-03 FALSEFALSE          1.0000000000000E-04 
-6.1000000000000E-01 3.9370000000000E-04 6.0000000000000E-01 3.9370000000000E-03 
+6.2000000000000E-01 3.9370000000000E-04 6.1000000000000E-01 3.9370000000000E-03 
 CONTACT  GCONTACT_TESS5           1    1    1                                   
 BODY24              BODY1               NONE                NONE                
 CAD                 AUTO                                    NONE                
@@ -1948,7 +1948,7 @@ NONE                NONE                NONE                NONE
 NONE                3.0000000000000E-01 3.0000000000000E-01 5.0000000000000E-03 
 TESSELLATED         FILE6               FILE1                                   
 2.0000000000000E+00 1.0000000000000E-03 FALSEFALSE          1.0000000000000E-04 
-6.1000000000000E-01 3.9370000000000E-04 6.0000000000000E-01 3.9370000000000E-03 
+6.2000000000000E-01 3.9370000000000E-04 6.1000000000000E-01 3.9370000000000E-03 
 CONTACT  GCONTACT_TESS6           1    1    1                                   
 BODY25              BODY1               NONE                NONE                
 CAD                 AUTO                                    NONE                
@@ -1967,7 +1967,7 @@ NONE                NONE                NONE                NONE
 NONE                3.0000000000000E-01 3.0000000000000E-01 5.0000000000000E-03 
 TESSELLATED         FILE7               FILE1                                   
 2.0000000000000E+00 1.0000000000000E-03 FALSEFALSE          1.0000000000000E-04 
-6.1000000000000E-01 3.9370000000000E-04 6.0000000000000E-01 3.9370000000000E-03 
+6.2000000000000E-01 3.9370000000000E-04 6.1000000000000E-01 3.9370000000000E-03 
 REVOLUTE EREVOLUTE_JOINT1     BODY26              BODY2                         
 HIEROBJECT165                                                                   
 HIEROBJECT59                                                                    

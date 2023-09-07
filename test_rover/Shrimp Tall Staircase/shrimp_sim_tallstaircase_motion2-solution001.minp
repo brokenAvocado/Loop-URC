@@ -1136,7 +1136,7 @@ NAMEMAP   CURRENT_DIRECTORY   66   0    UTF8 UTF8 FILE
 C:\Users\ericy\Documents\Loop-URC\test_rover\Shrimp Tall Staircase              
 SYSTEM   GMILLIMETER          DYNAMIC             SPARSE    TRUE NCBF      TRUE 
 9.8066500000000E+03 0.000000000000E+00  0.000000000000E+00  -1.000000000000E+00 
-1.0000000000000E+00 0.000000000000E+00  5.7000000000000E+00 2.0000000000000E-02 
+1.0000000000000E+00 0.000000000000E+00  5.7000000000000E+00 5.7000000000000E-03 
 1.0000000000000E-09 1.0000000000000E-03 NULL_FALSEBINARY_ONLFALSEKILOGNEWTO    1
 NONE                NONE                    1NONE                TRUE ITERAFALSE
 NONE                NONE                                                        
@@ -2079,34 +2079,34 @@ Drv007_RZ
 Drv007_RZ                                                                       
 NAMEMAP   FILE1               142  0    UTF8 UTF8 FILE                          
 C:\Users\ericy\Documents\Loop-URC\test_rover\Shrimp Tall Staircase\Shrimp sim_ta
-llStaircase_motion2-Solution001_155_ALTERNATING_SMALLHILLS.off                  
+llStaircase_motion2-Solution001_154_ALTERNATING_SMALLHILLS.off                  
 NAMEMAP   FILE10              124  0    UTF8 UTF8 FILE                          
 C:\Users\ericy\Documents\Loop-URC\test_rover\Shrimp Tall Staircase\Shrimp sim_ta
-llStaircase_motion2-Solution001_162_B016.off                                    
+llStaircase_motion2-Solution001_161_B016.off                                    
 NAMEMAP   FILE11              124  0    UTF8 UTF8 FILE                          
 C:\Users\ericy\Documents\Loop-URC\test_rover\Shrimp Tall Staircase\Shrimp sim_ta
-llStaircase_motion2-Solution001_163_B015.off                                    
+llStaircase_motion2-Solution001_162_B015.off                                    
 NAMEMAP   FILE2               124  0    UTF8 UTF8 FILE                          
 C:\Users\ericy\Documents\Loop-URC\test_rover\Shrimp Tall Staircase\Shrimp sim_ta
-llStaircase_motion2-Solution001_157_B018.off                                    
+llStaircase_motion2-Solution001_156_B018.off                                    
 NAMEMAP   FILE3               124  0    UTF8 UTF8 FILE                          
 C:\Users\ericy\Documents\Loop-URC\test_rover\Shrimp Tall Staircase\Shrimp sim_ta
-llStaircase_motion2-Solution001_158_B021.off                                    
+llStaircase_motion2-Solution001_157_B021.off                                    
 NAMEMAP   FILE4               124  0    UTF8 UTF8 FILE                          
 C:\Users\ericy\Documents\Loop-URC\test_rover\Shrimp Tall Staircase\Shrimp sim_ta
-llStaircase_motion2-Solution001_159_B018.off                                    
+llStaircase_motion2-Solution001_158_B018.off                                    
 NAMEMAP   FILE5               124  0    UTF8 UTF8 FILE                          
 C:\Users\ericy\Documents\Loop-URC\test_rover\Shrimp Tall Staircase\Shrimp sim_ta
-llStaircase_motion2-Solution001_155_B012.off                                    
+llStaircase_motion2-Solution001_154_B012.off                                    
 NAMEMAP   FILE6               124  0    UTF8 UTF8 FILE                          
 C:\Users\ericy\Documents\Loop-URC\test_rover\Shrimp Tall Staircase\Shrimp sim_ta
-llStaircase_motion2-Solution001_160_B021.off                                    
+llStaircase_motion2-Solution001_159_B021.off                                    
 NAMEMAP   FILE7               124  0    UTF8 UTF8 FILE                          
 C:\Users\ericy\Documents\Loop-URC\test_rover\Shrimp Tall Staircase\Shrimp sim_ta
-llStaircase_motion2-Solution001_156_B011.off                                    
+llStaircase_motion2-Solution001_155_B011.off                                    
 NAMEMAP   FILE8               124  0    UTF8 UTF8 FILE                          
 C:\Users\ericy\Documents\Loop-URC\test_rover\Shrimp Tall Staircase\Shrimp sim_ta
-llStaircase_motion2-Solution001_161_B004.off                                    
+llStaircase_motion2-Solution001_160_B004.off                                    
 NAMEMAP   FILE9               124  0    UTF8 UTF8 FILE                          
 C:\Users\ericy\Documents\Loop-URC\test_rover\Shrimp Tall Staircase\Shrimp sim_ta
-llStaircase_motion2-Solution001_161_B008.off                                    
+llStaircase_motion2-Solution001_160_B008.off                                    
